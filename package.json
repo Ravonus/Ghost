@@ -20,6 +20,7 @@
     "**/node_modules/**"
   ],
   "scripts": {
+    "start": "npx ghost start",
     "archive": "nx run ghost:archive",
     "build": "nx run-many -t build",
     "build:clean": "nx reset && rimraf -g 'ghost/*/build' && rimraf -g 'ghost/*/tsconfig.tsbuildinfo'",
